@@ -1,0 +1,3 @@
+# kjubie.github.io
+
+I just realized github pages only work with static HTML pages....
