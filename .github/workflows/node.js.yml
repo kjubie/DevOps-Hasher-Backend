@@ -8,6 +8,7 @@ on:
 
 jobs:
   lint:
+    steps:
     - run: npx mrm@2 lint-staged
   build:
     runs-on: ubuntu-latest
@@ -26,4 +27,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
   test:
+    steps:
     - run: npm test
