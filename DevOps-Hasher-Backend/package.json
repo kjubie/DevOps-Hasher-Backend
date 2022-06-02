@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "hasher",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjubie/kjubie.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjubie/kjubie.github.io/issues"
+  },
+  "homepage": "https://github.com/kjubie/kjubie.github.io#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "mocha": "^10.0.0",
+    "prettier": "2.6.2"
+  },
+  "dependencies": {
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "lint-staged": "^13.0.0"
+  }
+}
