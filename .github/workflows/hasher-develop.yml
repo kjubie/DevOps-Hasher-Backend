@@ -1,4 +1,4 @@
-name: Hasher CI
+name: Hasher CI Develop/Feature
 
 on:
   push:

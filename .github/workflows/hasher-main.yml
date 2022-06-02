@@ -1,4 +1,4 @@
-name: Hasher CI
+name: Hasher CI Master
 
 on:
   push:
