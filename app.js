@@ -4,7 +4,7 @@ var cors = require('cors')
 
 var app = express();
 
-var types = ["sha1", "md5", "sha256", "sha512"]
+var types = ["sha1", "md5", "sha256", "sha512", "ripemd160"]
 
 app.use(cors())
 
