@@ -5,10 +5,8 @@
         "es2021": true
     },
     "extends": [
-		"some-other-config-you-use",
-		"prettier",
-		"eslint:recommended"
-	],
+        "standard"
+    ],
     "parserOptions": {
         "ecmaVersion": "latest"
     },
