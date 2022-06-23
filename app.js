@@ -17,7 +17,7 @@ app.use(
 app.use(express.json());
 
 app.get('/', (req, res) => {
-	res.end("Hello!\nPlease send a POST request to /hash with 'text:<textToHash>' and 'type:<hashingType>'!\nAllowed hashing types: md5, sha1, sha256, sha512");
+	res.end("Hello!\nPlease send a POST! request to /hash with 'text:<textToHash>' and 'type:<hashingType>'!\nAllowed hashing types: md5, sha1, sha256, sha512");
 })
 
 //Comment new
